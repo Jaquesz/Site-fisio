@@ -1,0 +1,275 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #F8F8F8;
+  gap: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
+  justify-content: center;
+}
+
+.col-1 {
+  box-sizing: border-box;
+  padding: 0 10px;
+  width: 8.3333333333%;
+}
+
+.col-2 {
+  box-sizing: border-box;
+  padding: 0 10px;
+  width: 16.6666666667%;
+}
+
+.col-3 {
+  box-sizing: border-box;
+  padding: 0 10px;
+  width: 25%;
+}
+
+.col-4 {
+  box-sizing: border-box;
+  padding: 0 10px;
+  width: 33.3333333333%;
+}
+
+.col-5 {
+  box-sizing: border-box;
+  padding: 0 10px;
+  width: 41.6666666667%;
+}
+
+.col-6 {
+  box-sizing: border-box;
+  padding: 0 10px;
+  width: 50%;
+}
+
+.col-7 {
+  box-sizing: border-box;
+  padding: 0 10px;
+  width: 58.3333333333%;
+}
+
+.col-8 {
+  box-sizing: border-box;
+  padding: 0 10px;
+  width: 66.6666666667%;
+}
+
+.col-9 {
+  box-sizing: border-box;
+  padding: 0 10px;
+  width: 75%;
+}
+
+.col-10 {
+  box-sizing: border-box;
+  padding: 0 10px;
+  width: 83.3333333333%;
+}
+
+.col-11 {
+  box-sizing: border-box;
+  padding: 0 10px;
+  width: 91.6666666667%;
+}
+
+.col-12 {
+  box-sizing: border-box;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #706f6f;
+  border-radius: 5px;
+}
+.navbar .links {
+  display: flex;
+  gap: 30px;
+}
+.navbar .links a {
+  text-decoration: none;
+  color: #24612E;
+  font-weight: bold;
+}
+.navbar .links a:hover {
+  background-color: #F4E5A8;
+  border-radius: 5px;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.texto-principal p {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.sala-fisio img {
+  width: 500px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 20px;
+}
+
+.card-diferencial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-diferencial img {
+  width: 40px;
+  height: 40px;
+}
+
+.cards-pai {
+  background-color: #e6f8ed;
+}
+
+.texto-secundario {
+  display: flex;
+  flex-direction: column;
+}
+.texto-secundario p {
+  text-align: justify;
+  line-height: 1.6;
+}
+.texto-secundario a {
+  align-self: center;
+  background-color: #e6f8ed;
+  border-radius: 5px;
+}
+.texto-secundario a button {
+  background-color: #e6f8ed;
+  padding: 10px;
+}
+
+.contato form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contato form .form-itens {
+  display: flex;
+  align-items: center;
+}
+.contato form label {
+  width: 90px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.contato form input {
+  border-radius: 3px;
+  padding: 5px;
+  box-sizing: border-box;
+  flex: 1;
+}
+.contato form input[type=submit] {
+  width: 90%;
+  padding: 10px;
+  border-radius: 6px;
+  text-align: center;
+}
+.contato form input[type=submit]:hover {
+  cursor: pointer;
+}
+
+.redes-sociais {
+  text-align: center;
+  margin: 30px 0;
+}
+.redes-sociais h3 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: black;
+}
+.redes-sociais .icones {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.redes-sociais .icones a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #f4f4f4;
+  color: black;
+  font-size: 1.3rem;
+  transition: all 0.3s ease;
+}
+.redes-sociais .icones a:hover {
+  transform: scale(1.1);
+  color: #fff;
+}
+.redes-sociais .icones a.facebook:hover {
+  background: #3b5998;
+}
+.redes-sociais .icones a.instagram:hover {
+  background: #e1306c;
+}
+.redes-sociais .icones a.whatsapp:hover {
+  background: #25d366;
+}
+.redes-sociais .icones a.linkedin:hover {
+  background: #0077b5;
+}
+
+.card-tratamentos {
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 5px;
+}
+.card-tratamentos img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 50%;
+}
+.card-tratamentos ul {
+  line-height: 1.5;
+}
+
+.img-consulta img {
+  width: 100%;
+}
+
+.pagina-agendamento {
+  padding: 10px;
+  border-radius: 5px;
+}
+.pagina-agendamento .link-agendar {
+  background-color: #25d366;
+  text-align: center;
+  border-radius: 5px;
+}
+.pagina-agendamento .link-agendar a {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=style.css.map */
